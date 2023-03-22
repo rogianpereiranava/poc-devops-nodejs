@@ -25,11 +25,13 @@ jobs:
     - name: Install Node Modules
       run:
         npm install
+        node index.js
         
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
