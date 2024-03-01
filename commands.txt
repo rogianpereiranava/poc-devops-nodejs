@@ -1,0 +1,5 @@
+!play [$URL] - Tocar música do youtube
+!skip - Pular música
+!stop - Parar música
+!joke - O Robo conta uma piada aleatória
+!help ou !commands - Mostra lista de comandos existente

@@ -1,3 +1,2 @@
-# poc-devops-nodejs
-
-### Poc de desenvolvimento de esteira
+# botDiscord
+Projeto para estudos, criação de robô para Discord em NodeJS
